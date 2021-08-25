@@ -76,11 +76,11 @@ final class RequiredMethods {
     */
     static String n_stair(int n){
 
-        StringBuilder stair = new StringBuilder(n*n + n);
+        StringBuilder stair = new StringBuilder((n*n) + n);
 
-        for(int i=0;i<n;i++){
+        for(int i=1;i<=n;i++){
             for(int j=0;j<i;j++) {
-                stair.append(i + 1).append(" ");
+                stair.append(i).append(" ");
             }
             stair.deleteCharAt((i*i) + i - 1);
             stair.append("\n");
