@@ -64,49 +64,13 @@ final class RequiredMethods {
     * 1
     * 2 2
     * 3 3 3
-    * 4 4 4 4
-    * ...
-    * n n n n ...
-    *
-    * (el patrón tiene n^2 + n - 1 caracteres
-    * (contando espacios y saltos de líneas))
-    *
-    * En la práctica devuelve un solo "string" que al ser impreso
-    * tiene el efecto deseado.
-    */
-    static String n_stair(int n){
-
-        StringBuilder stair = new StringBuilder((n*n) + n);
-
-        for(int i=1;i<=n;i++){
-            for(int j=0;j<i;j++) {
-                stair.append(i).append(" ");
-            }
-            stair.deleteCharAt((i*i) + i - 1);
-            stair.append("\n");
-        }
-        stair.deleteCharAt((n*n) + n - 1);
-
-        return stair.toString();
-    }
-
-    /*
-    * Tercer método de la tarea, recibe un solo entero, devuelve
-    * el siguiente patrón:
-    *
-    * 1
-    * 2 2
-    * 3 3 3
     * ...
     * n n n n ...
     *
     * En la práctica devuelve un solo "string" que al ser impreso
     * tiene el efecto deseado.
-    *
-    * Este método es recursivo como una prueba, no creo que sea
-    * muy eficiente.
     */
-    static String recursive_n_stair(int n) {
+    static String n_stair(int n) {
         if (n == 1) {return Integer.toString(n);}
         else{
             StringBuilder my_str = new StringBuilder("\n");
@@ -115,7 +79,31 @@ final class RequiredMethods {
             }
             my_str.append(n);
 
-            return recursive_n_stair(n-1) + my_str;
+            return n_stair(n-1) + my_str;
         }
     }
 }
+
+/*
+* Trate de hacer el método 3 no recursivo, pero tiene fallas y no funciona
+* bien para números muy grandes. No sé si es menos o más rápido
+* o más difícil de leer, pero el acercamiento recursivo me pareció
+* más sencillo de programar.
+*
+* Intento fallido de un acercamiento "constructivo":
+*
+* static String n_stair(int n) {
+*   StringBuilder stair = new StringBuilder((n*n) + n);
+*
+*   for(int i=1;i<=n;i++){
+*       for(int j=0;j<i;j++) {
+*           stair.append(i).append(" ");
+*       }
+*       stair.deleteCharAt((i*i) + i - 1);
+*       stair.append("\n");
+*   }
+*   stair.deleteCharAt((n*n) + n - 1);
+*
+*   return stair.toString();
+* }
+*/
