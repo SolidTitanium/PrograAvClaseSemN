@@ -1,3 +1,6 @@
+//Tarea 2 por Germán Eduardo Félix Spíndola
+//Programación Avanzada.
+
 import java.util.*;
 import java.io.File;
 import java.io.FileNotFoundException;
