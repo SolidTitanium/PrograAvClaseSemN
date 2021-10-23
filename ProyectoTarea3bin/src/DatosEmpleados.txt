@@ -1,0 +1,195 @@
+Employee{
+JobDescription(
+Los empleados genéricos tienen
+cierto número de años de antigüedad,
+trabajan 40 horas por semana, tienen
+un salario estándar de $50,000.00 al
+año, tienen dos semanas de vacaciones
+pagadas al año que aumenta por dos días
+por cada año de antigüedad y deben de
+completar el formulario amarillo para
+irse de vacaciones.
+)
+User1(
+Name:Robbie Wolf
+Years:22
+)
+User2(
+Name:Karson Handley
+Years:9
+)
+User3(
+Name:Leah Stott
+Years:12
+)
+User4(
+Name:Tiah Lister
+Years:26
+)
+User5(
+Name:Clayton Burnett
+Years:7
+)
+User6(
+Name:Fintan Thompson
+Years:6
+)
+User7(
+Name:Ebrahim Hilton
+Years:23
+)
+}
+HarvardLawyer{
+JobDescription(
+Los abogados de Harvard son como
+los abogados normales, pero ganan
+20% más dinero que el abogado normal,
+obtienen 3 días más de vacaciones y
+deben de completar 4 formularios rosas
+para irse de vacaciones.
+)
+User1(
+Name:Kelise Fernandez
+Years:32
+)
+User2(
+Name:Lyle Myers
+Years:18
+)
+}
+Janitor{
+JobDescription(
+Los conserjes trabajan el doble de
+horas que los empleados genéricos,
+ganan $30,000.00 al año y tienen la mitad
+de vacaciones que otros empleados.
+)
+User1(
+Name:Deacon Galindo
+Years:8
+)
+User2(
+Name:Parker Delacruz
+Years:11
+)
+User3(
+Name:Simeon Blake
+Years:31
+)
+User4(
+Name:Lucca Hatfield
+Years:3
+)
+}
+Lawyer{
+JobDescription(
+Los abogados ganan $5,000.00 más
+al año que los empleados genéricos por
+cada año de antigüedad, tienen una semana
+extra de vacaciones y deben de completar
+el formulario rosa para irse de vacaciones.
+)
+User1(
+Name:Yuvraj Clarkson
+Years:18
+)
+User2(
+Name:Inez Mcdonald
+Years:29
+)
+User3(
+Name:Grayson Finney
+Years:17
+)
+User4(
+Name:Teegan Curran
+Years:6
+)
+}
+LegalSecretary{
+JobDescription(
+Los secretarios legales llevan a
+cabo papeleo legal y ganan $5,000.00
+más al año por ello, además de tener
+las carácteristicas y responsabilidades
+de los secretarios.
+)
+User1(
+Name:Jez Dejesus
+Years:5
+)
+User2(
+Name:Donna Bauer
+Years:26
+)
+User3(
+Name:Zahraa Sanchez
+Years:15
+)
+User4(
+Name:Kimberley Mckeown
+Years:7
+)
+User5(
+Name:Zaynab Parra
+Years:10
+)
+}
+Marketer{
+JobDescription(
+Los mercaderes anuncian el producto y
+ganan $10,000.00 más al año por ello,
+además de tener las carácteristicas y
+responsabilidades de los empleados,
+genéricos.
+)
+User1(
+Name:Keane Wilde
+years:22
+)
+User2(
+Name:Carter Hawkins
+Years:6
+)
+User3(
+Name:Reid Tanner
+Years:4
+)
+User4(
+Name:Eileen Bull
+Years:31
+)
+}
+Secretary{
+JobDescription(
+Los secretarios llevan a cabo tareas de
+administración pero no tienen bono por
+año de servicio, además de tener las
+características y responsabilidades de
+los empleados genéricos.
+)
+User1(
+Name:Finnian Willis
+Years:29
+)
+User2(
+Name:Una Mckay
+Years:29
+)
+User3(
+Name:Keith Bain
+Years:5
+)
+User4(
+Name:Myles Grainger
+Years:3
+)
+User5(
+Name:Malaki Weber
+Years:20
+)
+User6(
+Name:Tasmin Riggs
+Years:12
+)
+}
