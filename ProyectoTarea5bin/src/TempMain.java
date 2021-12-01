@@ -1,3 +1,6 @@
+//Tarea 5 por Germán Eduardo Félix Spíndola
+//Programación Avanzada
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -6,7 +9,7 @@ public class TempMain {
         StringBuilder resultString = new StringBuilder();
 
         //Leer datos
-        DataReader myReader = new DataReader("D:\\OtherMyScripts\\ProgramaciónAvanzada\\repo\\PrograAvClaseSemN\\ProyectoTarea5bin\\res\\personality.txt");
+        DataReader myReader = new DataReader("src/bigdata.txt"); //Path del documento
         ArrayList<String[]> entries = myReader.fetch();
 
         //Procesar datos
